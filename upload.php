@@ -9,6 +9,7 @@ $dbname = "myDB";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
+//db conn
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
