@@ -1,15 +1,13 @@
 <?php
 // Database credentials
-$servername = "database-1.czu0qcc0qpx2.us-east-1.rds.amazonaws.com";
-$username = "admin";
-$password = "varshitha";
-$dbname = "myDB";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 //db conn
+
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
